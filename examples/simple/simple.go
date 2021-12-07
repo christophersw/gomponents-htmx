@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/christophersw/gomponents-htmx"
+	c "github.com/christophersw/gomponents-htmx/components"
+	. "github.com/christophersw/gomponents-htmx/html"
 )
 
 func main() {

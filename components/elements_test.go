@@ -3,9 +3,9 @@ package components_test
 import (
 	"testing"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	"github.com/maragudk/gomponents/internal/assert"
+	g "github.com/christophersw/gomponents-htmx"
+	c "github.com/christophersw/gomponents-htmx/components"
+	"github.com/christophersw/gomponents-htmx/internal/assert"
 )
 
 func TestInputHidden(t *testing.T) {

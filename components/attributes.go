@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	g "github.com/maragudk/gomponents"
-	"github.com/maragudk/gomponents/html"
+	g "github.com/christophersw/gomponents-htmx"
+	"github.com/christophersw/gomponents-htmx/html"
 )
 
 // Classes is a map of strings to booleans, which Renders to an attribute with name "class".

@@ -1,8 +1,8 @@
 package components
 
 import (
-	g "github.com/maragudk/gomponents"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/christophersw/gomponents-htmx"
+	. "github.com/christophersw/gomponents-htmx/html"
 )
 
 func InputHidden(name, value string, children ...g.Node) g.Node {

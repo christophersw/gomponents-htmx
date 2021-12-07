@@ -6,7 +6,7 @@ package html
 import (
 	"io"
 
-	g "github.com/maragudk/gomponents"
+	g "github.com/christophersw/gomponents-htmx"
 )
 
 // Doctype returns a special kind of Node that prefixes its sibling with the string "<!doctype html>".

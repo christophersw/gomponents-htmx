@@ -2,8 +2,8 @@
 
 # Tired of complex template languages?
 
-[![GoDoc](https://godoc.org/github.com/maragudk/gomponents?status.svg)](https://godoc.org/github.com/maragudk/gomponents)
-[![Go](https://github.com/maragudk/gomponents/actions/workflows/go.yml/badge.svg)](https://github.com/maragudk/gomponents/actions/workflows/go.yml)
+[![GoDoc](https://godoc.org/github.com/christophersw/gomponents-htmx?status.svg)](https://godoc.org/github.com/christophersw/gomponents-htmx)
+[![Go](https://github.com/christophersw/gomponents-htmx/actions/workflows/go.yml/badge.svg)](https://github.com/christophersw/gomponents-htmx/actions/workflows/go.yml)
 [![codecov](https://codecov.io/gh/maragudk/gomponents/branch/master/graph/badge.svg)](https://codecov.io/gh/maragudk/gomponents)
 
 Try view components in pure Go.
@@ -33,7 +33,7 @@ Made in 🇩🇰 by [maragu](https://www.maragu.dk), maker of [online Go courses
 Get the library using `go get`:
 
 ```shell script
-go get -u github.com/maragudk/gomponents
+go get -u github.com/christophersw/gomponents-htmx
 ```
 
 The preferred way to use gomponents is with so-called dot-imports (note the dot before the `gomponents/html` import),
@@ -45,9 +45,9 @@ package main
 import (
 	"net/http"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/christophersw/gomponents-htmx"
+	c "github.com/christophersw/gomponents-htmx/components"
+	. "github.com/christophersw/gomponents-htmx/html"
 )
 
 func main() {
@@ -98,9 +98,9 @@ package main
 import (
 	"net/http"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/christophersw/gomponents-htmx"
+	c "github.com/christophersw/gomponents-htmx/components"
+	. "github.com/christophersw/gomponents-htmx/html"
 )
 
 func main() {
