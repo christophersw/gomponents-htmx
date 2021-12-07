@@ -1,3 +1,5 @@
+> This repository extends the very excellent [gomponents library](www.gomponents.com) with the attributes need to use [HTMX](https://htmx.org/reference/). 
+
 # Tired of complex template languages?
 
 [![GoDoc](https://godoc.org/github.com/maragudk/gomponents?status.svg)](https://godoc.org/github.com/maragudk/gomponents)
