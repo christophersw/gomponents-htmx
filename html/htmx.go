@@ -8,7 +8,7 @@ func HxBoost() g.Node {
 }
 
 // shows a confim() dialog before issuing a request
-func Hxconfirm() g.Node {
+func HxConfirm() g.Node {
 	return g.Attr("hx-confirm")
 }
 
@@ -24,7 +24,7 @@ func HxDisable() g.Node {
 
 // changes the request encoding type
 func HxEncoding() g.Node {
-	return g.Attr("hx-disable")
+	return g.Attr("hx-encoding")
 }
 
 // extensions to use for this element
@@ -50,6 +50,11 @@ func HxHistoryElt() g.Node {
 // the element to snapshot and restore during history navigation
 func HxInclude() g.Node {
 	return g.Attr("hx-include")
+}
+
+// the element to put the htmx-request class on during the AJAX request
+func HxIndicator() g.Node {
+	return g.Attr("hx-indicator")
 }
 
 // filters the parameters that will be submitted with a request
