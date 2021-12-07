@@ -1,4 +1,4 @@
-> This repository extends the very excellent [gomponents library](www.gomponents.com) with the attributes need to use [HTMX](https://htmx.org/reference/). 
+> This repository extends the very excellent [gomponents library](www.gomponents.com) with the attributes needed to use [HTMX](https://htmx.org/reference/). 
 
 # Tired of complex template languages?
 
