@@ -11,7 +11,7 @@ import (
 
 func TestHtmxAttributes(t *testing.T) {
 
-	cases := map[string]func() g.Node{
+	cases := map[string]func(string) g.Node{
 		"hx-boost":       HxBoost,
 		"hx-confirm":     HxConfirm,
 		"hx-delete":      HxDelete,
@@ -42,9 +42,9 @@ func TestHtmxAttributes(t *testing.T) {
 	}
 
 	for name, fn := range cases {
-		t.Run(fmt.Sprintf("should output %v", name), func(t *testing.T) {
-			n := g.El("div", fn())
-			assert.Equal(t, fmt.Sprintf(`<div %v></div>`, name), n)
+		t.Run(fmt.Sprintf(`should output %v="hat"`, name), func(t *testing.T) {
+			n := g.El("div", fn("hat"))
+			assert.Equal(t, fmt.Sprintf(`<div %v="hat"></div>`, name), n)
 		})
 	}
 }
