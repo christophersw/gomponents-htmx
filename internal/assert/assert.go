@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	g "github.com/maragudk/gomponents"
+	g "github.com/christophersw/gomponents-htmx"
 )
 
 // Equal checks for equality between the given expected string and the rendered Node string.

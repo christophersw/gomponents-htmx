@@ -3,7 +3,7 @@
 package svg
 
 import (
-	g "github.com/maragudk/gomponents"
+	g "github.com/christophersw/gomponents-htmx"
 )
 
 func Path(children ...g.Node) g.Node {

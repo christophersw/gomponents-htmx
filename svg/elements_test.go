@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	g "github.com/maragudk/gomponents"
-	"github.com/maragudk/gomponents/internal/assert"
-	. "github.com/maragudk/gomponents/svg"
+	g "github.com/christophersw/gomponents-htmx"
+	"github.com/christophersw/gomponents-htmx/internal/assert"
+	. "github.com/christophersw/gomponents-htmx/svg"
 )
 
 func TestSimpleElements(t *testing.T) {

@@ -34,7 +34,7 @@ Made in 🇩🇰 by [maragu](https://www.maragu.dk), maker of [online Go courses
 Get the library using `go get`:
 
 ```shell script
-go get -u github.com/maragudk/gomponents
+go get -u github.com/christophersw/gomponents-htmx
 ```
 
 The preferred way to use gomponents is with so-called dot-imports (note the dot before the `gomponents/html` import),
@@ -46,9 +46,9 @@ package main
 import (
 	"net/http"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/christophersw/gomponents-htmx"
+	c "github.com/christophersw/gomponents-htmx/components"
+	. "github.com/christophersw/gomponents-htmx/html"
 )
 
 func main() {
@@ -99,9 +99,9 @@ package main
 import (
 	"net/http"
 
-	g "github.com/maragudk/gomponents"
-	c "github.com/maragudk/gomponents/components"
-	. "github.com/maragudk/gomponents/html"
+	g "github.com/christophersw/gomponents-htmx"
+	c "github.com/christophersw/gomponents-htmx/components"
+	. "github.com/christophersw/gomponents-htmx/html"
 )
 
 func main() {

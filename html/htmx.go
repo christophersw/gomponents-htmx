@@ -1,6 +1,6 @@
 package html
 
-import g "github.com/maragudk/gomponents"
+import g "github.com/christophersw/gomponents-htmx"
 
 // progressively enhances anchors and forms to use AJAX requests
 func HxBoost() g.Node {
